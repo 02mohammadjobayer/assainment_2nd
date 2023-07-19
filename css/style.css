@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: roboto;
 }
 /*nav bar Start*/
 .youtube{
@@ -51,7 +52,6 @@
 .nav_title{
     text-decoration: none;
     color: black;
-    font-family: arial;
     font-size: 15px;  
 }
 .gammer{
@@ -62,3 +62,97 @@
     color: #FF42A5;  
 }
 /*nav bar END*/
+
+/*Header Section Start*/
+.header_section{ 
+    background: #fafafa; 
+    
+}
+.main_header{
+    display: flex;
+    justify-content: space-around;
+}
+.play{
+    font-size: 35px;
+}
+.goat{
+    font-size: 70px;
+    color:#F948B2;
+}
+.goat_all{
+    margin-top: -400px;
+    width: 500px;
+    padding-left: 200px;
+}
+.btn_a{
+    background: #F948B2;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 40px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn_b{
+    background: #4EC5F7;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 40px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.goat_all p{
+    padding: 5px;
+}
+.header_left_item img{
+    width: 95%;
+    height: 100%;
+    
+}
+.header_right_item img{
+    width:90%;
+    height: 100%;
+    
+    
+}
+
+/*Header Section END*/
+
+/*we_are_gamer start*/
+.we_are_gamer{
+    background: #f1f1f1;
+    padding-top: 60px;
+}
+.all_gmaer{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+}
+.all_gmaer img{
+    padding: 10px;
+    height: 90%;
+    width: 90%;
+}
+.we_are_text{
+    text-align: right;
+    padding-top: 55px;
+    
+}
+.we_are{
+    color: #FF42A5;
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+.we_are_text p{
+    padding: 15px 0px;
+    line-height: 25px;
+}
+.we_are_text h4{
+    padding-top: 25px;
+}
+/*we_are_gamer END*/
+
+
+
+
