@@ -12,31 +12,53 @@
 }
 .navigation_bar{
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
     padding: 25px;
     align-items: center;
 }
-.right_top_bar{
+.icon_gamer{
     display: flex;
-    flex-direction: row;
-    
+    align-items: center ;   
+}
+.right_nav_bar{
+    display: flex;
+    align-items: center ;
+}
+.nav_title{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.follow_icon{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background: #c4c4c4;
+    border-radius: 15px;   
+}
+.follow_icon a{
+    padding: 10px;
+}
+.follow_icon img{
+    padding-left: 5px;
 }
 .logo{
-    width: 50px;
-    height: 50px;
-
+    width: 60px;
+    height: 40px;
 }
-.right_top_bar a{
+.about_dev{
+    background: #fff;
+}
+.nav_title{
     text-decoration: none;
     color: black;
     font-family: arial;
-    font-size: 15px;
+    font-size: 15px;  
 }
 .gammer{
-    margin-left: 15px;
+    font-family: roboto;
+    margin-left: 25px; 
 }
 .gammer strong{
-    color: #FF42A5;
-    font-family: roboto;
+    color: #FF42A5;  
 }
 /*nav bar END*/
