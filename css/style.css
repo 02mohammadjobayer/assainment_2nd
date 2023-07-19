@@ -123,6 +123,7 @@
 .we_are_gamer{
     background: #f1f1f1;
     padding-top: 60px;
+    text-align: center;
 }
 .all_gmaer{
     display: flex;
@@ -153,6 +154,32 @@
 }
 /*we_are_gamer END*/
 
+/*online gamer start*/
 
-
-
+.online_gamer{
+    text-align: center;
+    padding: 100px 0px;
+}
+.all_gamer_text{
+    padding: 0px 0px 80px 0px;
+}
+.all_gamer_text h1{
+    font-size: 35px;
+    padding-bottom: 5px;
+}
+.all_gamer_text strong{
+    color: #FF42A5;
+}
+.all_gamer{
+    display: flex;  
+}
+.gamer_card img{
+    width: 250px;
+    height: 350px;
+    
+}
+.gamer_card p{
+    text-align: left;
+    padding: 10px 50px;
+}
+/*online gamer end*/
