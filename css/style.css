@@ -225,3 +225,46 @@
 }
 
 /*Play Gamer End*/
+
+/*Game Item List Start*/
+.game_item_list{
+    background: #f2f2f2;
+    padding: 40px;
+    padding-top:100px ;
+    padding-bottom: 100px ;
+    
+    
+}
+.all_game{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.game{
+    height: 80px;
+    width: 240px;
+   background: white;
+    border-radius: 40px;
+    
+}
+.game img{
+    float: left;
+    padding: 10px;
+}
+.game h4{
+    text-align: left;
+    margin-top: 30px;
+}
+.game:hover{
+    background: #F948B2;
+    border: 2px solid black;
+    color: white;
+}
+
+
+/*Game Item List End*/
