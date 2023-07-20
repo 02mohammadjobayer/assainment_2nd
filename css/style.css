@@ -262,9 +262,60 @@
 }
 .game:hover{
     background: #F948B2;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     color: white;
 }
 
 
 /*Game Item List End*/
+
+    
+/*Footer Section Start*/
+.footer{
+    padding: 100px;
+    background: #0B0223;
+}
+.all_foter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer_logo{
+    display: flex;
+    flex-direction: row;
+    padding:40px ;
+}
+.end_gammer{
+    color: white;
+    padding-left: 10px;
+}
+.end_gammer strong{
+    color:#F948B2 ;
+}
+.footer_item a{
+    color: white;
+    text-decoration: none;
+    padding: 30px; 
+}
+.footer_item a:hover{
+    color:#F948B2 ;
+    transition: 0.5s;
+}
+.socal_logo img{
+    height: 40px ;
+    width: 40px;
+    padding: 40px 10px; 
+}
+.thirtd_footer a{
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+    padding: 20px; 
+    font-size: 14px;
+}
+.all_foter p{
+    color: rgb(170, 170, 170);
+    padding: 20px;
+    font-size: 14px;
+}
+/*Footer Section End*/
